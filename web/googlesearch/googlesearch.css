@@ -1,0 +1,57 @@
+/*search */
+#___gcse_0{
+  width: 160px;
+  position: absolute;
+  border: #ccc 1px solid;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+
+}
+div.gsc-control-cse, .gsc-control-cse,.gsib_a,td.gsc-input,.gsib_b,table.gsc-search-box td{
+  padding: 0;
+}
+div.gsc-control-cse, .gsc-control-cse div,.gsib_a,#gsc-iw-id1 table,.gsib_b,td.gsc-input,td.gsc-search-button{
+  border:none;
+}
+div.gsc-control-cse, .gsc-control-cse,table.gsc-search-box,#gsc-iw-id1,table#gs_id50{
+  background-color: rgba(0,0,0,0);
+}
+.gsc-control-cse form.gsc-search-box{
+  margin: 0;
+}
+.gsc-control-cse .gsc-input-box-focus{
+  box-shadow: none;
+}
+div.gsc-control-cse{
+  padding: 0;
+}
+.gsc-search-box-tools .gsc-search-box td.gsc-input{
+  padding-right: 16px;
+}
+#gsc-iw-id1 input{
+  border: none;
+  background: none !important;
+  font-size: 11px;
+  margin: 7px 10px !important;
+}
+.gsib_b .gsst_b{
+  padding-top: 2px;
+}
+.gsc-search-button input.gsc-search-button-v2,
+.gsc-search-button input.gsc-search-button-v2:hover,
+.gsc-search-button input.gsc-search-button-v2:focus{
+  padding: 0;
+  background-color: transparent;
+  background: url(search_btn.png) no-repeat;
+  position: absolute;
+  right: 0;
+  color: transparent;
+  border: none;
+  top: 4px;
+  right: 8px;
+  overflow: hidden;
+  text-indent: 9999em;
+  width: 15px;
+}
