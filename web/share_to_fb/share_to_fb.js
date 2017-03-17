@@ -5,7 +5,7 @@ function shareFacebook(url, options, app_id){
      * picture, name, description, redirect_uri
      */
 
-	var share_url = 'https://www.facebook.com/dialog/feed?app_id=' + app_id + '&display=popup&picture=' + encodeURI(options.picture) + '&link=' + url + '&redirect_uri=' + encodeURI(options.redirect_uri) + '&name=' + encodeURI(options.name) + '&description=' + encodeURI(options.description);
+	var share_url = 'https://www.facebook.com/dialog/feed?app_id=' + app_id + '&display=popup&picture=' + encodeURIComponent(options.picture) + '&link=' + encodeURIComponent(url) + '&redirect_uri=' + encodeURIComponent(options.redirect_uri) + '&name=' + encodeURIComponent(options.name) + '&description=' + encodeURIComponent(options.description);
 
 	var w_width=600;                                                                        
 	var w_height=300;                                                                        
