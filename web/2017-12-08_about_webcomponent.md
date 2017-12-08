@@ -30,7 +30,7 @@ Polymer 或稱 webComponent 是一個很新的 web 技術，它很像 react.js, 
 
 `Polymer.dom(Item.root)` 會取到 template 的東西，稱為 **ShadowDOM**
 
-另外，如果寫在 template 裡面時的物件有加 `id="this_id"` 這個屬性，在Polymer 建構
+另外，如果寫在 template 裡面時的物件有加 `id="myElement"` 這個屬性，在 Polymer 建構類型的函式裡，除了 constructor 之外，都可以用 `this.$.myElement` 取到該物件唷。
 
 ### 在  Polymer 建構式可以用的 function：
 
@@ -72,5 +72,5 @@ P.S. 如果是 dom-repeat, dom-if 這種動態加入的，不會加到 `this.$` 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5NTM0NzkzXX0=
+eyJoaXN0b3J5IjpbLTE2OTQ1ODExNjNdfQ==
 -->
