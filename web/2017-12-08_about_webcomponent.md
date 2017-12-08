@@ -30,13 +30,13 @@ Polymer 或稱 webComponent 是一個很新的 web 技術，它很像 react.js, 
 
 `Polymer.dom(Item.root)` 會取到 template 的東西，稱為 **ShadowDOM**
 
+另外，如果寫在 template 裡面時的物件有加 `id="this_id"` 這個屬性，在Polymer 建構
 
-
-### 在  Polymer 建構式可以用的function：
+### 在  Polymer 建構式可以用的 function：
 
 參考：https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements
 
-1. constructor 構築元件的，這時還不能用 this.$
+1. constructor 構築元件的，這時還不能用 `this.$`
 2. connectedCallback 
 3. attributeChangedCallback(attributeName, oldValue, newValue, namespace)
 
@@ -64,7 +64,7 @@ this.$.someItemm.addEventListener('click',xxxfunc)
 ```
 `addEventListener` 有個好處，它裡面的 function 取 this 就會直接取到該元件，我寫在 on-click 讀了半天都只取到寫 function 的那個物件。
 
-如果是 dom-repeat, dom-if 這種動態加入的，不會加到 `this.$` 裡面喔
+P.S. 如果是 dom-repeat, dom-if 這種動態加入的，不會加到 `this.$` 裡面喔
 
 
 ## 在 Drupal 可以用的做法
@@ -72,5 +72,5 @@ this.$.someItemm.addEventListener('click',xxxfunc)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyNjQ2OTQyXX0=
+eyJoaXN0b3J5IjpbNDU5NTM0NzkzXX0=
 -->
