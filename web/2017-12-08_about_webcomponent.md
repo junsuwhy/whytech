@@ -46,12 +46,14 @@ Polymer 或稱 webComponent 是一個很新的 web 技術，它很像 react.js, 
 但這時還不是 Polymer 元件，再取 `item.getRootNode().host` 才是 shadowRoot 外包的一層元件。
 
 
-
+### 關於事件
 用了 on-click,  onmouseover 那麼久，覺得還是都不要用這些比較好 ，請直接用
+```
 Polymer.dom(this.root).querySelector('xxx-xxx').addEventListener('click',xxxfunc)
+```
 或是 
-this.$.someItemm.addEventListener('click',xxxfunc)
-如果是 dom-repeat, dom-if 這種動態加入的，不會加到 this.$ 裡面喔
+```this.$.someItemm.addEventListener('click',xxxfunc)```
+如果是 dom-repeat, dom-if 這種動態加入的，不會加到 `this.$` 裡面喔
 
 
 ## 在 Drupal 可以用的做法
@@ -59,5 +61,5 @@ this.$.someItemm.addEventListener('click',xxxfunc)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MzIyNjI0Nl19
+eyJoaXN0b3J5IjpbLTE3NzI2ODE0NzBdfQ==
 -->
