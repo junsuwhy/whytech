@@ -28,7 +28,7 @@ Polymer 或稱 webComponent 是一個很新的 web 技術，它很像 react.js, 
 
 `Polymer.dom(Item)` 會取到外部的東西，稱之為 **LightDOM**
 
-Polymer.dom(Item.root) 會取到 template 的東西，稱為 ShadowDOM
+`Polymer.dom(Item.root)` 會取到 template 的東西，稱為 **ShadowDOM**
 
 
 
@@ -59,5 +59,5 @@ this.$.someItemm.addEventListener('click',xxxfunc)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjA3NDQ1Ml19
+eyJoaXN0b3J5IjpbNjM1NjA2MjE2XX0=
 -->
