@@ -52,7 +52,9 @@ Polymer 或稱 webComponent 是一個很新的 web 技術，它很像 react.js, 
 Polymer.dom(this.root).querySelector('xxx-xxx').addEventListener('click',xxxfunc)
 ```
 或是 
-```this.$.someItemm.addEventListener('click',xxxfunc)```
+```
+this.$.someItemm.addEventListener('click',xxxfunc)
+```
 如果是 dom-repeat, dom-if 這種動態加入的，不會加到 `this.$` 裡面喔
 
 
@@ -61,5 +63,5 @@ Polymer.dom(this.root).querySelector('xxx-xxx').addEventListener('click',xxxfunc
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzI2ODE0NzBdfQ==
+eyJoaXN0b3J5IjpbLTg0MzE3MDkwNl19
 -->
