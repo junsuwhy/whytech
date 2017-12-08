@@ -54,7 +54,7 @@ Polymer 或稱 webComponent 是一個很新的 web 技術，它很像 react.js, 
 <people-item data-item=[[item]] on-click="doClick"></people-item>
 ```
 
-用了 on-click,  onmouseover 那麼久，覺得還是都不要用這些比較好，因為有的時候函式是寫在新建立的 Polymer 下面，但有的時候又不是，疑似是 window` 。為避免這種情況，請直接用
+用了 on-click,  onmouseover 那麼久，覺得還是都不要用這些比較好，因為有的時候函式是寫在新建立的 Polymer 下面，但有的時候又不是，疑似是 `window` 。為避免這種情況，請直接用
 ```js
 Polymer.dom(this.root).querySelector('xxx-xxx').addEventListener('click',xxxfunc)
 ```
@@ -70,5 +70,5 @@ this.$.someItemm.addEventListener('click',xxxfunc)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODE1ODc1N119
+eyJoaXN0b3J5IjpbLTE1MjA3NzMxNTFdfQ==
 -->
