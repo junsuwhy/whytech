@@ -22,7 +22,7 @@ Polymer 或稱 webComponent 是一個很新的 web 技術，它很像 react.js, 
 
 ### 如何取到 ShadowDOM 裡面的東西？
 
-使用 Polymer.dom 可以取得 Dom 元件
+使用 `Polymer.dom` 函式可以取得 Dom 元件
 假設 Item 是一個包含 ShadowDOM 的物件 
 `Polymer.dom(Item)`和`Polymer.dom(Item.root)` 不一樣
 
@@ -32,18 +32,18 @@ Polymer 或稱 webComponent 是一個很新的 web 技術，它很像 react.js, 
 
 
 
-1. 在  Polymer 建構式可以用的function：  https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements
-	1. constructor 構築元件的，這時還不能用 this.$
-	2. connectedCallback 
-	3. attributeChangedCallback(attributeName, oldValue, newValue, namespace)
+### 在  Polymer 建構式可以用的function：
 
+參考：https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements
 
+1. constructor 構築元件的，這時還不能用 this.$
+2. connectedCallback 
+3. attributeChangedCallback(attributeName, oldValue, newValue, namespace)
 
+### 在 imported html  裡面的東西，怎麼取到它的 host 
 
-	1. 在 imported html  裡面的東西，怎麼取到它的 host 
-
-假設有個 item  在一個 shadowRoot 裡面，它可以用 item.getRootNode() 取到它的第一個父層 shadowRoot，
-但這時還不是 Polymer 元件，再取 item.getRootNode().host 才是 shadowRoot 外包的一層元件。
+假設有個 item  在一個 shadowRoot 裡面，它可以用 `item.getRootNode()` 取到它的第一個父層 shadowRoot，
+但這時還不是 Polymer 元件，再取 `item.getRootNode().host` 才是 shadowRoot 外包的一層元件。
 
 
 
@@ -59,5 +59,5 @@ this.$.someItemm.addEventListener('click',xxxfunc)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM1NjA2MjE2XX0=
+eyJoaXN0b3J5IjpbLTk3MzIyNjI0Nl19
 -->
