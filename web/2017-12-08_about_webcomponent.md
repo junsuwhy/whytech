@@ -6,14 +6,17 @@
 # 簡介
 
 ## 為什麼要用 Polymer
-
-Polymer 或稱 webComponent 是一個很新的 web 技術，它很像 react.js, Angular.js, Vue.js 這些時下很紅的框架，但又有點不一樣，它結合了最新瀏覽器共同訂立的一些新技術，包括 customElement, shadowDom 等等，使我們可以藉這個技術建立一些能在多網站、平台上呈現一致的模組。
+webComponent 讓每個人可以自行定義新的 html 元件，過去 html 主要用到的是 <div>, <h
 
 ## HelloWorld
 
 
 
 # 用途
+
+# 原理
+
+Polymer 或稱 webComponent 是一個很新的 web 技術，它很像 react.js, Angular.js, Vue.js 這些時下很紅的框架，但又有點不一樣，它結合了最新瀏覽器共同訂立的一些新技術，包括 customElement, shadowDom 等等，使我們可以藉這個技術建立一些能在多網站、平台上呈現一致的模組。
 
 # 環境安裝
 
@@ -82,5 +85,5 @@ P.S. 如果是 dom-repeat, dom-if 這種動態加入的，不會加到 `this.$` 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQwMTk0MzZdfQ==
+eyJoaXN0b3J5IjpbNDAzMjQ5MDldfQ==
 -->
