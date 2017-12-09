@@ -6,7 +6,8 @@
 # 簡介
 
 ## 為什麼要用 Polymer
-webComponent 讓每個人可以自行定義新的 html 元件，過去 html 主要用到的是 <div>, <h1>, <li> 等這些東西。
+
+webComponent 讓每個人可以自行定義新的 html 元件，過去 html 主要用到的是 <div>, <h1>, <li> 等這些東西。革言
 
 ## HelloWorld
 
@@ -85,5 +86,5 @@ P.S. 如果是 dom-repeat, dom-if 這種動態加入的，不會加到 `this.$` 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODYyODUyMl19
+eyJoaXN0b3J5IjpbLTg0Njc5NDA5N119
 -->
