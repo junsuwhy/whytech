@@ -22,8 +22,7 @@ Polymer 或稱 webComponent 是一個很新的 web 技術，它很像 react.js, 
 # 環境安裝
 你的電腦可以透過一些設定，來打造快速撰寫 webComponent  的環境，要裝的東西如下：
 
-* nodejs, npm
-* 
+* nodejs, npm, bower, polymer-cli (前三個主要是為了裝 polymer-cli)
 
 # 設定
 
@@ -90,5 +89,5 @@ P.S. 如果是 dom-repeat, dom-if 這種動態加入的，不會加到 `this.$` 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDYyNTMwOF19
+eyJoaXN0b3J5IjpbLTY1MDUxOTEwNV19
 -->
