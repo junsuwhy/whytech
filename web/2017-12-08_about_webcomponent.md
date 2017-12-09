@@ -1,7 +1,7 @@
 
 # 序言
 
-目前還很少人用 webComponent 
+目前還很少人用 webComponent / Polymer 這個網站框架技術，網路上找到的資源超少的，所以想寫一些中文的東西。
 
 # 簡介
 
@@ -82,5 +82,5 @@ P.S. 如果是 dom-repeat, dom-if 這種動態加入的，不會加到 `this.$` 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODk2NDQ1OTVdfQ==
+eyJoaXN0b3J5IjpbLTE3ODQwMTk0MzZdfQ==
 -->
