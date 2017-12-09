@@ -11,6 +11,8 @@ Polymer 或稱 webComponent 是一個很新的 web 技術，它很像 react.js, 
 
 ## HelloWorld
 
+
+
 # 用途
 
 # 環境安裝
@@ -80,5 +82,5 @@ P.S. 如果是 dom-repeat, dom-if 這種動態加入的，不會加到 `this.$` 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTQ2NjE1M119
+eyJoaXN0b3J5IjpbLTE5ODk2NDQ1OTVdfQ==
 -->
