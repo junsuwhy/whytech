@@ -37,7 +37,8 @@ webComponent 讓每個人可以自行定義新的 html 元件，過去 html 主�
 
 ### 1. 載入基本的程式庫（Polymer.js 或 webComponent.js）
 ### 2. 載入 HelloWorld
-
+### 3. 呈現 HelloWorld 在畫面上
+### 4. 
 
 # 用途
 
@@ -115,5 +116,5 @@ P.S. 如果是 dom-repeat, dom-if 這種動態加入的，不會加到 `this.$` 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMzkxMzA2NF19
+eyJoaXN0b3J5IjpbNTk3ODIyOTA2XX0=
 -->
