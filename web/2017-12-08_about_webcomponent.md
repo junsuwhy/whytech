@@ -28,7 +28,9 @@ webComponent 讓每個人可以自行定義新的 html 元件，過去 html 主�
 
 ## HelloWorld
 
-
+準備材料：
+寫網頁的程式碼編輯器
+執行網頁的環境，最好能在本機用 localhost 模擬網頁伺服器
 
 
 # 用途
@@ -107,5 +109,5 @@ P.S. 如果是 dom-repeat, dom-if 這種動態加入的，不會加到 `this.$` 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTc4MTExNV19
+eyJoaXN0b3J5IjpbLTMxMjAxMDI2XX0=
 -->
