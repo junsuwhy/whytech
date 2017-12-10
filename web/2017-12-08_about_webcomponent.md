@@ -17,14 +17,7 @@ webComponent 讓每個人可以自行定義新的 html 元件，過去 html 主�
 例如到 webComponent.org 下載了名為 paper-button 的元件，就可以在 html 使用 `<paper-button>` 
 
 ```
-<paper-dropdown-menu label="Dinosaurs">
-  <paper-listbox slot="dropdown-content" selected="1">
-    <paper-item>allosaurus</paper-item>
-    <paper-item>brontosaurus</paper-item>
-    <paper-item>carcharodontosaurus</paper-item>
-    <paper-item>diplodocus</paper-item>
-  </paper-listbox>
-</paper-dropdown-menu>
+<paper-button raised class="indigo">raised</paper-button>
 ```
 
 ## HelloWorld
@@ -107,5 +100,5 @@ P.S. 如果是 dom-repeat, dom-if 這種動態加入的，不會加到 `this.$` 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTA2Nzc3Ml19
+eyJoaXN0b3J5IjpbLTEyOTExNzkxNjZdfQ==
 -->
