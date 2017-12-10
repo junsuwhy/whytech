@@ -22,6 +22,10 @@ webComponent 讓每個人可以自行定義新的 html 元件，過去 html 主�
 
 呈現效果會像這樣：
 
+這樣的好處是，因為當下很紅的 Material Design 的物件，大多都有人寫好元件在 webComponent 上面，你只要找到對應的下載下來安裝，就能用在自己的網頁上面了，不用重新刻一個。
+
+下面我們就做一個使用 PolymerHelloWorld 的頁面。
+
 ## HelloWorld
 
 
@@ -102,5 +106,5 @@ P.S. 如果是 dom-repeat, dom-if 這種動態加入的，不會加到 `this.$` 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTkxODE5Ml19
+eyJoaXN0b3J5IjpbNTM4MTc2MTAxXX0=
 -->
